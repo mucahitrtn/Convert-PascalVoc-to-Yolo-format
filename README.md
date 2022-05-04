@@ -1,6 +1,6 @@
 # Convert-PascalVoc-to-Yolo-format
 
-### Xml file format
+### Pascal voc annotation
 
 ```
 <annotation>
@@ -17,7 +17,7 @@
   </size>
   <object>
     <name>--- class name ---</name>
-    <class>--- class number ---</class>
+    <class>--- object-class ---</class>
     <pose>0</pose>
     <bndbox>
       <xmin>--- xmin ---</xmin>
@@ -29,9 +29,8 @@
 </annotation>
 ```
 
-### txt file format 
+### Yolo annotation 
 
 ```
 <object-class> <x> <y> <width> <height>  
-
 ```
